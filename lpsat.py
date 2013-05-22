@@ -99,7 +99,7 @@ def pingtest(ip):
 
 def main():
 	#Main loop
-	for i in range(1, 254):
+	for i in range(1, 255):
 		
 		#Concat our SUBNET and i, for our IP
 		ip = str(SUBNET) + "." + str(i)
